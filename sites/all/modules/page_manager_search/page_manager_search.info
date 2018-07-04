@@ -1,0 +1,14 @@
+name = Page manager search
+description = Makes Page manager pages searchable by Drupals search module.
+dependencies[] = page_manager
+package = Chaos tool suite
+core = 7.x
+
+files[] = page_manager_search.entity.inc
+files[] = tests/page_manager_search.test
+; Information added by Drupal.org packaging script on 2016-06-08
+version = "7.x-1.2"
+core = "7.x"
+project = "page_manager_search"
+datestamp = "1465386453"
+
